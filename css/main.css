@@ -176,7 +176,7 @@ header .sub-menu .search input {
 }
 header .sub-menu .search input:focus {
   width: 190px;
-  border-color: #669900;
+  border-color: #EA9926;
 }
 header .sub-menu .search .material-icons {
   height: 24px;
@@ -204,7 +204,7 @@ header .main-menu .item .item__name {
 }
 header .main-menu .item:hover .item__name {
   background-color: #2C2A29;
-  color: #669900;
+  color: #EA9926;
   border-radius: 6px 6px 0 0;
 }
 header .main-menu .item .item__contents {
@@ -238,7 +238,7 @@ header .main-menu .item .item__contents .contents__menu > ul > li ul li {
   cursor: pointer;
 }
 header .main-menu .item .item__contents .contents__menu > ul > li ul li:hover {
-  color: #669900;
+  color: #EA9926;
 }
 header .main-menu .item .item__contents .contents__texture {
   padding: 26px 0;
@@ -250,7 +250,7 @@ header .main-menu .item .item__contents .contents__texture h4 {
   font-weight: 900;
 }
 header .main-menu .item .item__contents .contents__texture p {
-  color: #64a70b;
+  color: #EA9926;
   margin: 4px 0 14px;
 }
 /*BADGES*/
@@ -279,13 +279,13 @@ header .badges .badge {
 }
 .visual .title {
   position: absolute;
-  top: 88px;
+  top: 40px;
   left: -10px;
 }
 .visual .title .btn {
   position: absolute;
-  top: 259px;
-  left: 173px;
+  top: 230px;
+  left: 148px;
 }
 .visual .cup1.image {
   position: absolute;
@@ -294,8 +294,8 @@ header .badges .badge {
 }
 .visual .cup1.text {
   position: absolute;
-  top: 38px;
-  right: 171px;
+  top: 40px;
+  right: 60px;
 }
 .visual .cup2.image {
   position: absolute;
@@ -304,8 +304,8 @@ header .badges .badge {
 }
 .visual .cup2.text {
   position: absolute;
-  top: 321px;
-  right: 416px;
+  top: 186px;
+  right: 412px;
 }
 .visual .spoon {
   position: absolute;
@@ -838,7 +838,7 @@ footer .menu li a {
   padding: 15px;
 }
 footer .menu li a.green {
-  color: #669900;
+  color: #EA9926;
 }
 footer .btn-group {
   margin-top: 20px;
