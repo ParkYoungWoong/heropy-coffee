@@ -9,7 +9,7 @@
 
 [DEMO](https://epic-darwin-271c77.netlify.app)
 
-![Heropy Coffee](https://raw.githubusercontent.com/ParkYoungWoong/heropy-coffee/master/_assets/main_screenshot.jpg)
+![Heropy Coffee](./_assets/main_screenshot.jpg)
 
 ## 문자 인코딩(Character Encoding) 설정
 
@@ -43,11 +43,11 @@
 
 Slack -
 
-![Slack Open Graph example](https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/slack_message_og_example.jpg)
+![Slack Open Graph example](./_assets/slack_message_og_example.jpg)
 
 KakaoTalk -
 
-![KakaoTalk Open Graph example](https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/kakao_og_example.jpg)
+![KakaoTalk Open Graph example](./_assets/kakao_og_example.jpg)
 
 [더 많은 오픈 그래프 속성 보기](https://ogp.me/)
 
