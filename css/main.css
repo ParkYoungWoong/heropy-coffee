@@ -356,7 +356,7 @@ header .badges .badge {
   font-weight: 700;
   margin-right: 20px;
 }
-.notice .notice-line .inner__left .swiper-container {
+.notice .notice-line .inner__left .swiper {
   height: 62px;
   flex-grow: 1;
 }
@@ -413,7 +413,7 @@ header .badges .badge {
 .notice .promotion.hide {
   height: 0;
 }
-.notice .promotion .swiper-container {
+.notice .promotion .swiper {
   /* 819px 슬라이드 3개와 그 사이 여백 10px씩 = 2477px */
   width: calc(819px * 3 + 20px);
   height: 553px;
@@ -765,7 +765,7 @@ header .badges .badge {
 .awards .inner {
   padding: 40px 0;
 }
-.awards .swiper-container {
+.awards .swiper {
   width: 100%;
   height: 40px;
 }
