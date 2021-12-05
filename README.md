@@ -1,17 +1,15 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9f2f756f-e1fc-48d9-9c07-b7d7433d8aaa/deploy-status)](https://app.netlify.com/sites/flamboyant-lumiere-482a1e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1cbd6948-19c3-4cdf-b785-aa71d080b2c9/deploy-status)](https://app.netlify.com/sites/epic-darwin-271c77/deploys)
 
-# ☕ STARBUCKS
+# ☕ HEROPY COFFEE
 
-스타벅스 랜딩 페이지(홈페이지)를 만드는 예제입니다. <br>
+헤로피커피 랜딩 페이지(홈페이지)를 만드는 예제입니다.<br>
 꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
 
-[master 브랜치로 이동](https://github.com/ParkYoungWoong/starbucks-vanilla-app) <br/>
-[signin 브랜치로 이동](https://github.com/ParkYoungWoong/starbucks-vanilla-app/tree/feature/signin)
+[master 브랜치로 이동](https://github.com/ParkYoungWoong/heropy-coffee)
 
-[DEMO](https://flamboyant-lumiere-482a1e.netlify.app/) <br/>
-[DEMO+signin](https://priceless-bhabha-83fc0d.netlify.app/)
+[DEMO](https://epic-darwin-271c77.netlify.app)
 
-![Starbucks](https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/main_screenshot.jpg)
+![Heropy Coffee](https://raw.githubusercontent.com/ParkYoungWoong/heropy-coffee/master/_assets/main_screenshot.jpg)
 
 ## 문자 인코딩(Character Encoding) 설정
 
@@ -55,11 +53,11 @@ KakaoTalk -
 
 ```html
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="Starbucks" />
-<meta property="og:title" content="Starbucks Coffee Korea" />
-<meta property="og:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
-<meta property="og:image" content="./images/starbucks_seo.jpg" />
-<meta property="og:url" content="https://starbucks.co.kr" />
+<meta property="og:site_name" content="Heropy Coffee" />
+<meta property="og:title" content="Heropy Coffee Landing" />
+<meta property="og:description" content="헤로피커피는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+<meta property="og:image" content="./images/for_seo.jpg" />
+<meta property="og:url" content="https://epic-darwin-271c77.netlify.app" />
 ```
 
 - `og:type`: 페이지의 유형(E.g, `website`, `video.movie`)
@@ -77,11 +75,11 @@ KakaoTalk -
 
 ```html
 <meta property="twitter:card" content="summary" />
-<meta property="twitter:site" content="Starbucks" />
-<meta property="twitter:title" content="Starbucks Coffee Korea" />
-<meta property="twitter:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
-<meta property="twitter:image" content="./images/starbucks_seo.jpg" />
-<meta property="twitter:url" content="https://starbucks.co.kr" />
+<meta property="twitter:site" content="Heropy Coffeee" />
+<meta property="twitter:title" content="Heropy Coffee Landing" />
+<meta property="twitter:description" content="헤로피커피는 세계에서 가장 큰 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+<meta property="twitter:image" content="./images/for_seo.jpg" />
+<meta property="twitter:url" content="https://epic-darwin-271c77.netlify.app" />
 ```
 
 - `twitter:card`: 페이지(카드)의 유형(E.g. `summary`, `player`)
@@ -107,8 +105,8 @@ KakaoTalk -
 - `favicon.ico` 64 x 64 (px) 또는 32 x 32 또는 16 x 16
 - `favicon.png` 500 x 500 (px)
 
-<img src="https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/favicon.png" alt="Starbucks" width="16" />
-<img src="https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/favicon.png" alt="Starbucks" width="200" />
+<img src="https://raw.githubusercontent.com/ParkYoungWoong/heropy-coffee/master/favicon.png" alt="HEROPY COFFEE" width="16" />
+<img src="https://raw.githubusercontent.com/ParkYoungWoong/heropy-coffee/master/favicon.png" alt="HEROPY COFFEE" width="200" />
 
 ### .ico 파일 제작
 
@@ -194,17 +192,13 @@ gsap.to(window, .7, {
 
 [Getting Started With Swiper](https://swiperjs.com/get-started)
 
-> [2021.08.26 Updated]
-> Swiper 6버전을 사용합니다.
-> 7버전과의 사용법이 다르기 때문에 6버전을 유지합니다.
-
 ```html
 <!-- in HEAD -->
-<link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
-<script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 <!-- in BODY -->
-<div class="swiper-container">
+<div class="swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">1</div>
     <div class="swiper-slide">2</div>
@@ -220,7 +214,7 @@ new Swiper(요소, 옵션);
 ```
 
 ```js
-new Swiper('.swiper-container', {
+new Swiper('.swiper', {
   direction: 'vertical', // 수직 슬라이드
   autoplay: true, // 자동 재생 여부
   loop: true // 반복 재생 여부
@@ -248,19 +242,19 @@ new Swiper('.swiper-container', {
 
 ```js
 // Youtube IFrame API를 비동기로 로드합니다.
-var tag = document.createElement('script');
+const tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
+const firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 function onYouTubePlayerAPIReady() {
   // <div id="player"></div>
   new YT.Player('player', {
-    videoId: 'An6LvWQuj_8', // 재생할 유튜브 영상 ID
+    videoId: 'Tdwetb0Mvyc', // 재생할 유튜브 영상 ID
     playerVars: {
       autoplay: true, // 자동 재생 유무
       loop: true, // 반복 재생 유무
-      playlist: 'An6LvWQuj_8' // 반복 재생할 유튜브 영상 ID 목록
+      playlist: 'Tdwetb0Mvyc' // 반복 재생할 유튜브 영상 ID 목록
     },
     events: {
       // 영상이 준비되었을 때,
@@ -330,307 +324,4 @@ function random(min, max) {
   // `parseFloat()`을 통해 소수점을 가지는 숫자 데이터로 변환
   return parseFloat((Math.random() * (max - min) + min).toFixed(2))
 }
-```
-
-## Main menu in Header
-
-```html
-<ul class="main-menu">
-  <li class="item">
-    <div class="item__name">COFFEE</div>
-    <div class="item__contents">
-      <div class="contents__menu">
-        <ul class="inner">
-          <li>
-            <h4>커피</h4>
-            <ul>
-              <li>스타벅스 원두</li>
-              <li>스타벅스 비아</li>
-              <li>스타벅스 오리가미</li>
-            </ul>
-          </li>
-          <li>
-            <h4>에스프레소 음료</h4>
-            <ul>
-              <li>도피오</li>
-              <li>에스프레소 마키아또</li>
-              <li>아메리카노</li>
-              <li>마키아또</li>
-              <li>카푸치노</li>
-              <li>라떼</li>
-              <li>모카</li>
-              <li>리스트레또 비안코</li>
-            </ul>
-          </li>
-          <li>
-            <h4>커피 이야기</h4>
-            <ul>
-              <li>스타벅스 로스트 스팩트럼</li>
-              <li>최상의 아라비카 원두</li>
-              <li>한 잔의 커피가 완성되기까지</li>
-              <li>클로버® 커피 추출 시스템</li>
-            </ul>
-          </li>
-          <li>
-            <h4>최상의 커피를 즐기는 법</h4>
-            <ul>
-              <li>커피 프레스</li>
-              <li>푸어 오버</li>
-              <li>아이스 푸어 오버</li>
-              <li>커피 메이커</li>
-              <li>리저브를 매장에서 다양하게 즐기는 법</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="contents__texture">
-        <div class="inner">
-          <h4>나와 어울리는 커피 찾기</h4>
-          <p>스타벅스가 여러분에게 어울리는 커피를 찾아드립니다.</p>
-          <h4>최상의 커피를 즐기는 법</h4>
-          <p>여러가지 방법을 통해 다양한 풍미의 커피를 즐겨보세요.</p>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="item">
-    <div class="item__name">MENU</div>
-    <div class="item__contents">
-      <div class="contents__menu">
-        <ul class="inner">
-          <li>
-            <h4>음료</h4>
-            <ul>
-              <li>콜드 브루</li>
-              <li>브루드 커피</li>
-              <li>에스프레소</li>
-              <li>프라푸치노</li>
-              <li>블렌디드 음료</li>
-              <li>스타벅스 피지오</li>
-              <li>티(티바나)</li>
-              <li>기타 제조 음료</li>
-              <li>스타벅스 주스(병음료)</li>
-            </ul>
-          </li>
-          <li>
-            <h4>푸드</h4>
-            <ul>
-              <li>베이커리</li>
-              <li>케익</li>
-              <li>샌드위치 & 샐러드</li>
-              <li>따뜻한 푸드</li>
-              <li>과일 & 요거트</li>
-              <li>스낵 & 미니 디저트</li>
-              <li>아이스크림</li>
-            </ul>
-          </li>
-          <li>
-            <h4>상품</h4>
-            <ul>
-              <li>머그</li>
-              <li>글라스</li>
-              <li>플라스틱 텀블러</li>
-              <li>스테인리스 텀블러</li>
-              <li>보온병</li>
-              <li>액세서리</li>
-              <li>커피 용품</li>
-              <li>패키지 티(티바나)</li>
-            </ul>
-          </li>
-          <li>
-            <h4>카드</h4>
-            <ul>
-              <li>실물카드</li>
-              <li>e-Gift 카드</li>
-            </ul>
-          </li>
-          <li>
-            <h4>메뉴 이야기</h4>
-            <ul>
-              <li>콜드 브루</li>
-              <li>스타벅스 티바나</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="contents__texture">
-        <div class="inner">
-          <h4 class="new">스타벅스 티바나</h4>
-          <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="item">
-    <div class="item__name">STORE</div>
-    <div class="item__contents">
-      <div class="contents__menu">
-        <ul class="inner">
-          <li>
-            <h4>매장 찾기</h4>
-            <ul>
-              <li>퀵 검색</li>
-              <li>지역 검색</li>
-              <li>My 매장</li>
-            </ul>
-          </li>
-          <li>
-            <h4>매장 이야기</h4>
-            <ul>
-              <li>청담스타</li>
-              <li>티바나 인스파이어드 매장</li>
-              <li>파미에파크</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="contents__texture">
-        <div class="inner">
-          <h4>매장 찾기</h4>
-          <p>보다 빠르게 매장을 찾아보세요.</p>
-          <h4 class="new">청담스타</h4>
-          <p>스타벅스 1,000호점인 청담스타점을 만나보세요.</p>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="item">
-    <div class="item__name">RESPONSIBILITY</div>
-    <div class="item__contents">
-      <div class="contents__menu">
-        <ul class="inner">
-          <li>
-            <h4>지역 사회 참여 활동</h4>
-            <ul>
-              <li>회망배달 캠페인</li>
-              <li>재능기부 카페 소식</li>
-              <li>커뮤니티 스토어</li>
-              <li>청년인재 양성</li>
-              <li>우리 농산물 사랑 캠페인</li>
-              <li>우리 문화 지키기</li>
-            </ul>
-          </li>
-          <li>
-            <h4>환경보호 활동</h4>
-            <ul>
-              <li>환경 발자국 줄이기</li>
-              <li>일회용 컵 없는 매장</li>
-              <li>커피 원두 재활용</li>
-            </ul>
-          </li>
-          <li>
-            <h4>윤리 구매</h4>
-            <ul>
-              <li>윤리적 원두 구매</li>
-              <li>공정무역 인증</li>
-              <li>커피 농가 지원 활동</li>
-            </ul>
-          </li>
-          <li>
-            <h4>글로벌 사회 공헌</h4>
-            <ul>
-              <li>윤리경영 보고서</li>
-              <li>스타벅스 재단</li>
-              <li>지구촌 봉사의 달</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="contents__texture">
-        <div class="inner">
-          <h4>커피원두 재활용</h4>
-          <p>스타벅스 커피 원두를 재활용 해보세요.</p>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="item">
-    <div class="item__name">MY STARBUCKS REWARDS</div>
-    <div class="item__contents">
-      <div class="contents__menu">
-        <ul class="inner">
-          <li>
-            <h4>마이 스타벅스 리워드</h4>
-            <ul>
-              <li>마이 스타벅스 리워드 소개</li>
-              <li>등급 및 혜택</li>
-              <li>스타벅스 별</li>
-              <li>자주하는 질문</li>
-            </ul>
-          </li>
-          <li>
-            <h4>스타벅스 카드</h4>
-            <ul>
-              <li>스타벅스 카드 소개</li>
-              <li>스타벅스 카드 갤러리</li>
-              <li>등록 및 조회</li>
-              <li>충전 및 이용안내</li>
-              <li>분실신고/환불신청</li>
-              <li>자주하는 질문</li>
-            </ul>
-          </li>
-          <li>
-            <h4>스타벅스 카드 e-Gift</h4>
-            <ul>
-              <li>스타벅스 카드 e-Gift 소개</li>
-              <li>이용안내</li>
-              <li>선물하기</li>
-              <li>자주하는 질문</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="contents__texture">
-        <div class="inner">
-          <h4>스타벅스 카드 등록하기</h4>
-          <p>카드 등록 후 리워드 서비스를 누리고 사용내역도 조회해보세요.</p>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="item">
-    <div class="item__name">WHAT'S NEW</div>
-    <div class="item__contents">
-      <div class="contents__menu">
-        <ul class="inner">
-          <li>
-            <h4>프로모션 & 이벤트</h4>
-            <ul>
-              <li>전체</li>
-              <li>스타벅스 카드</li>
-              <li>마이 스타벅스 리워드</li>
-              <li>온라인</li>
-              <li>2017 스타벅스 플래너</li>
-            </ul>
-          </li>
-          <li>
-            <h4>새소식</h4>
-            <ul>
-              <li>전체</li>
-              <li>상품 출시</li>
-              <li>스타벅스의 문화</li>
-              <li>스타벅스 사회공헌</li>
-              <li>스타벅스 카드출시</li>
-            </ul>
-          </li>
-          <li>
-            <h4>매장별 이벤트</h4>
-            <ul>
-              <li>일반 매장</li>
-              <li>신규 매장</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="contents__texture">
-        <div class="inner">
-          <h4>매장별 이벤트</h4>
-          <p>스타벅스의 매장 이벤트 정보를 확인 하실 수 있습니다.</p>
-          <h4>소셜 스타벅스</h4>
-          <p>다양한 스타벅스 SNS 채널을 통해 스타벅스를 만나보세요!</p>
-        </div>
-      </div>
-    </div>
-  </li>
-</ul>
 ```
