@@ -163,7 +163,7 @@ header .sub-menu .search {
 }
 header .sub-menu .search input {
   width: 36px;
-  height: inherit;
+  height: 34px;
   padding: 4px 10px;
   border: 1px solid #ccc;
   box-sizing: border-box;
