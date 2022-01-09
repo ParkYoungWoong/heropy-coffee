@@ -103,8 +103,8 @@ KakaoTalk -
 - `favicon.ico` 64 x 64 (px) 또는 32 x 32 또는 16 x 16
 - `favicon.png` 500 x 500 (px)
 
-<img src="https://raw.githubusercontent.com/ParkYoungWoong/heropy-coffee/master/favicon.png" alt="HEROPY COFFEE" width="16" />
-<img src="https://raw.githubusercontent.com/ParkYoungWoong/heropy-coffee/master/favicon.png" alt="HEROPY COFFEE" width="200" />
+<img src="favicon.png" alt="HEROPY COFFEE" width="16" />
+<img src="favicon.png" alt="HEROPY COFFEE" width="200" />
 
 ### .ico 파일 제작
 
