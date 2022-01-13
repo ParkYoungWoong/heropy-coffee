@@ -5,7 +5,8 @@
 헤로피커피 랜딩 페이지(홈페이지)를 만드는 예제입니다.<br>
 꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
 
-[DEMO](https://epic-darwin-271c77.netlify.app)
+[DEMO](https://epic-darwin-271c77.netlify.app/)
+[DEMO/signin](https://practical-ritchie-d283cb.netlify.app/signin/)
 
 ![Heropy Coffee](_assets/main_screenshot.jpg)
 
